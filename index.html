@@ -1,3 +1,108 @@
 <!DOCTYPE html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:700,800,900&amp;subset=latin-ext" rel="stylesheet">
+</head>
+
 <body>
-	<p>testing</p></body>
+	<div id="content">
+	  <div id="left" class="column w50">
+	  	<div id="leftFlagDiv" style="vertical-align: center;">
+	  		<img id="leftFlag" src="LeftFlag.png">
+	  	</div>
+	  	<div id="titleDiv">
+	  		<a style="text-decoration:none;color: #000000" href="https://www.nationstates.net/region=the_universal_order_of_nations"><p id="regionTitle">THE UNIVERSAL ORDER <br />OF NATIONS</p></a>
+	  	</div>
+	  </div>
+	  <div id="right" class="column w50">
+	  	<div id="rightFlagDiv">
+	  		<img id="rightFlag" src="RightFlag.png">
+	  	</div>
+	  <div id="mapButton" class="buttonDiv"><a style="text-decoration: none;" href="http://map.uonregion.com"><button align="center" style="font-weight: 900" class="buttons">MAPS</button></a></div>
+	  <div id="forumButton" class="buttonDiv"><a style="text-decoration: none;" href="http://theuniversalorderofnations.shivtr.com"><button align="center" style="font-weight: 900" class="buttons">FORUM</button>
+	  <div id="chatzyButton" class="buttonDiv"><a style="text-decoration: none;" href="http://us20.chatzy.com/StaggeringStatesman"><button align="center" style="font-weight: 900" class="buttons">CHATZY</button>
+	  </div>
+	</div>
+
+<style>
+/* you shall not pass */
+div, textarea, table, td, th, code, pre, samp {
+	word-wrap: break-word;
+}
+body {
+	height: 100%;
+	margin: 0 auto 0 auto	;
+	padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #fdc82e;
+}
+.column {
+    float: left;
+
+}
+.w50 {
+    width: 50%;
+    height: 100%;
+}
+#left {
+	background-color:#fdc82e;
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+}
+#right {
+	background-color:#000000;
+	padding:0;
+	margin:0;
+	position: relative;
+	height: 100vh;
+}
+#leftFlag {
+	float: right;
+	margin: 0;
+	padding: 0;
+	width: 25%;
+}
+#rightFlag {
+	margin: 0;
+	padding: 0;
+	width: 25%;
+}
+#leftFlagDiv {
+	vertical-align: center;
+}
+#regionTitle {
+	text-align: right;
+	vertical-align: middle;
+	padding-top: 40%;
+	padding-right: 15%;
+	font-weight: 900;
+	font-size: 30px;
+}
+ .buttons {
+    background-color: #000000;
+    padding: 20px 22px;
+    font-size: 30px;
+    color: #f5f5f5;
+    margin: 0;
+    border:none;
+    outline:none;
+    width: 25%;
+    -webkit-animation: fadeEffect 0.5s;
+    animation: fadeEffect 0.5s;
+    transition: 0.1s;
+}
+.buttonDiv {
+	text-align: center;
+}
+.buttons:hover {
+	background-color: #fdc82e;
+	color: #000000;
+}
+    @-webkit-keyframes fadeEffect {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+    @keyframes fadeEffect {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
